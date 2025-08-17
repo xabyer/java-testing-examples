@@ -1,7 +1,9 @@
 package nio;
 
 import java.nio.ByteBuffer;
-
+/*
+Original Source: https://medium.com/tuanhdotnet/mastering-java-nio-library-features-code-examples-and-demos-explained-c1bcac32415a
+ */
 public class ByteBufferExample {
     public static void main(String[] args) {
         ByteBuffer buffer = ByteBuffer.allocate(48);
